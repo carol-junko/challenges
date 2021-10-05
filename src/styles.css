@@ -1,0 +1,36 @@
+.wireframe {
+	margin: 100px auto;
+	border: solid 1px #1f72ee;
+	border-radius: 20px;
+	max-width: 600px;
+}
+
+.innerWireframe {
+	padding: 25px;
+}
+
+.city-information,
+.weekly-information {
+	font-family: "Montserrat", sans-serif;
+	color: rgb(159, 160, 159);
+	font-size: 16px;
+}
+
+.weekly-information {
+	text-align: center;
+}
+
+div .img {
+	max-width: 100%;
+	font-size: 50px;
+	text-align: center;
+	color: rgb(31, 114, 238);
+}
+
+#temperature {
+	font-size: 64px;
+}
+
+#weather-description {
+	text-transform: capitalize;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe Weather Project</title>
+
+    <link rel="stylesheet" href="src/styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+        <script src="https://kit.fontawesome.com/10e1340a08.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wireframe">
+        <div class="container">
+            <div class="innerWireframe">
+                <br />
+                <form>
+                    <div class="mb-5">
+                        <div class="row">
+                            <div class="col-6">
+                                <input 
+                                type="text" 
+                                class="form-control" 
+                                placeholder="Enter the City" 
+                                id="search-input">
+                            </div>
+                            <div class="col-3">
+                                <input 
+                                type="submit" 
+                                class="form-control btn btn-primary" 
+                                id="search-button"
+                                value="Search">
+                            </div>
+                            <div class="col-3">
+                                <button  
+                                class="form-control btn btn-success" 
+                                id="current-button">
+                                    Current
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+
+                <div class="row mb-5 city-information">
+                    <div class="col-6">
+                        <h1 id="city">
+                            City
+                        </h1>
+                        <p id="date-time">
+                            Weekday and Time
+                        </p>
+                        <p id="weather-description">
+                            Weather description
+                        </p>
+                        <span id="temperature">22</span>
+                        <a href="#" id="celcius-link">°C</a>|
+                        <a href="#" id="fahrenheit-link">°F</a>
+                    </div>
+
+                    <div class="col-6">
+                        <br />
+                        <br />
+
+
+                        <p id="humidity">
+                            Humidity
+                        </p>
+                        <p id="wind-speed">
+                            Wind: 0km/hr
+                        </p>
+                    </div>
+                </div>
+
+                <!-- <div class="row weekly-information">
+                    <div class="col">
+                        <div class="weekday-1">
+                            Weekday
+                        </div>
+                        <div class="img">
+                            <i class="fas fa-cloud-rain"></i>
+                        </div>
+                        <div class="weather-week-celcius">
+                            22 C
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="col">
+                        <div class="weekday-2">
+                            Weekday
+                        </div>
+                        <div class="img">
+                            <i class="far fa-sun"></i>
+
+                        </div>
+                        <div class="weather-week-celcius">
+                            22 C
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <div class="weekday-3">
+                            Weekday
+                        </div>
+                        <div class="img">
+                            <i class="fas fa-cloud-sun-rain"></i>
+                        </div>
+                        <div class="weather-week-celcius">
+                            22 C
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <div class="weekday-4">
+                            Weekday
+                        </div>
+                        <div class="img">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <div class="weather-week-celcius">
+                            22 C
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <div class="weekday-5">
+                            Weekday
+                        </div>
+                        <div class="img">
+                            <i class="fas fa-cloud-showers-heavy"></i>
+                        </div>
+                        <div class="weather-week-celcius">
+                            22 C
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="src/script.js"></script>
+
+</body>
+
+</html>
