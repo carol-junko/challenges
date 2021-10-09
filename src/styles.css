@@ -34,3 +34,8 @@ div .img {
 #weather-description {
 	text-transform: capitalize;
 }
+
+#open-source {
+	margin-top: -100px;
+	text-align: center;
+}
